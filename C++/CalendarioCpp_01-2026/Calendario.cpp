@@ -557,7 +557,7 @@ int main(){
 
       for(int i=1;i<=12;i++){
         DrawMonth(i, year, MonthLengh, AllSpecialDates, AddedDates);
-        SpecialDatesPrint(month, MonthLengh, AllSpecialDates,AddedDates, MenuState);
+        SpecialDatesPrint(i, MonthLengh, AllSpecialDates,AddedDates, MenuState);
       }
 
       std::cout  << "1.Consultar outro ano:" << std::endl;
