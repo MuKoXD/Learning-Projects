@@ -365,6 +365,7 @@ void SpecialDatesPrint(int month, int MonthLengh[], SpecialDatesInfo AllSpecialD
       break;
       case 8:
         std::cout << "                     AGOSTO                      " << std::endl;
+      break;
       case 9:
         std::cout << "                    SETEMBRO                     " << std::endl;
       break;
